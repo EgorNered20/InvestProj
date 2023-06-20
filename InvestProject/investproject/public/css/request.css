@@ -1,0 +1,93 @@
+body {
+	color: #070341;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	height: 48px;
+	padding-left: 20px;
+	display: block;
+	margin: 0 auto 15px;
+	border-radius: 100px;
+}
+
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+.spisok {
+	font-size: 50px;
+}
+
+.spisok-anim{
+    font-size: 1em;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.spisok-anim:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #0D6EFD;
+    width: 170px;
+    margin: 0 auto 10px;
+	transition: 1s;
+}
+.spisok-anim:hover:before {
+    width: 250px;
+	transition: ease-out 1s;
+}
+
+.spisok-anim:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #0D6EFD;
+    width: 170px;
+    margin: 10px auto 0;
+	transition: 1s;
+}
+.spisok-anim:hover:after {
+    width: 250px;
+	transition: ease-out 1s;
+}
+
+
+.footer {
+	padding: 60px 0px;
+	text-align: center;
+	background: #070341);
+	background: #070341;
+}
+
+.credits {
+	font-size: 14px;
+	color: #fff;
+}
